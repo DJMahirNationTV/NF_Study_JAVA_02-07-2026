@@ -1,8 +1,32 @@
+import Arrays.customLevel;
+import Arrays.EasyLevel;
+import java.util.Scanner;
+
 // Import class from calculator
 public class Main {
     public static void main(String[] args) {
+        Scanner selector = new Scanner(System.in);
+
+        System.out.println("Please select the Exercrise and the Level (e.g.: Array_L1.1");
+        String selection = selector.nextLine();
+        System.out.println(selection);
+
+        switch (selection) {
+            case "Array_L1.1":
+                EasyLevel.level1(args);
+                break;
+
+            case "Array_L1.2":
+                EasyLevel.level2(args);
+                break;
+            case "Array_L1.3":
+                EasyLevel.level3(args);
+                break;
+        }
         //calculator.main(args);
-        exerciseOperator.main(args);
+        //exerciseOperator.main(args);
+        //customLevel.array(args);
         // FOR THJE OTHER BRANCH
+
     }
 }
