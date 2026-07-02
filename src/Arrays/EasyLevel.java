@@ -15,8 +15,11 @@ public class EasyLevel {
         }
     }
     public static void level3(String[] args) {
-        for (int i = 0; i <= 10; i++) {
-            int result = i;
+        int[] numArray = {2,4,6,8};
+        int length = numArray.length;
+
+        for (int i = 0; i < length; i++) {
+            double result = Math.sqrt(numArray[i]);
             System.out.println(result);
         }
     }
