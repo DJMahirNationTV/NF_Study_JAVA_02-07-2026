@@ -1,4 +1,3 @@
-import Arrays.customLevel;
 import Arrays.EasyLevel;
 import java.util.Scanner;
 
@@ -23,10 +22,6 @@ public class Main {
                 EasyLevel.level3(args);
                 break;
         }
-        //calculator.main(args);
-        //exerciseOperator.main(args);
-        //customLevel.array(args);
-        // FOR THJE OTHER BRANCH
 
     }
 }
