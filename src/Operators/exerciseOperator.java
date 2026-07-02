@@ -1,4 +1,5 @@
-import org.w3c.dom.ls.LSOutput;
+package Operators;
+
 import java.util.Scanner;
 
 public class exerciseOperator {
